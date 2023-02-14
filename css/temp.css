@@ -1,0 +1,206 @@
+/* Color Scheme
+IRIS  #4D5AE5; Primary Brand (CTAs Focused Active states Links)
+OCEAN : #404BBF; Pressed state (CTAs)
+NAVY-BLUE: #2E2F42; Dark (Overlays Shadows Headings)
+GREEN : #31D0AA; Success (Valid fields Success messages)
+SLATE : #434455; Body text
+LIGHT SLATE : #8E8F99; Subtle Text (Helper text Deemphasized text)
+CORNFLOWER : #E7E9FC; Accent (Accent color Hairlines Subtle backgrounds)
+CLOUD : #F4F4FD; light (Light mode backgrounds Light mode Dialogs/alerts)
+NAVY-BLUE : #2E2F42; Modal overlay
+GREY : #2E2F42; Hero background (Hero image background)
+*/
+
+/* LOGO LINK ---------------------- */
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 24px;
+/* identical to box height, or 133% */
+display: flex;
+align-items: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+/* IRIS */
+color: #4D5AE5;
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+/* HEADER LOGO STUDIO ------------- */
+/* NAVY-BLUE */
+color: #2E2F42;
+
+/* NAV LINK ----------------------- */
+/* Body Medium */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+letter-spacing: 0.02em;
+/* NAVY-BLUE */
+color: #2E2F42;
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* ADDRESS LINK ------------------- */
+/* Body */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+letter-spacing: 0.02em;
+/* SLATE */
+color: #434455;
+
+/* HERO TITLE --------------------- */
+/* Header 1 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 56px;
+line-height: 60px;
+/* or 107% */
+text-align: center;
+letter-spacing: 0.02em;
+color: #FFFFFF;
+
+/* HERO BUTTON -------------------- */
+/* Button Text */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+display: flex;
+align-items: center;
+letter-spacing: 0.04em;
+color: #FFFFFF;
+/* IRIS */
+background: #4D5AE5;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* HERO BUTTON HOVER/FOCUS -------- */
+/* OCEAN */
+background: #404BBF;
+
+/* SECTION TITLE ------------------ */
+/* Header 2 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 40px;
+/* identical to box height, or 111% */
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+/* NAVY-BLUE */
+color: #2E2F42;
+
+/* SECTION TEAM ------------------- */
+/* CLOUD */
+background: #F4F4FD;
+
+/* FEATURE TITLE ------------------ */
+/* DIRECTION TITLE ---------------- */
+/* MEMBER TITLE ------------------- */
+/* CARD TITLE --------------------- */
+/* Header 3 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+/* identical to box height, or 120% */
+letter-spacing: 0.02em;
+/* NAVY-BLUE */
+color: #2E2F42;
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* MAIN TEXT: --------------------- */
+/* FEATURE TEXT ------------------- */
+/* MEMBER TEXT -------------------- */
+/* CARD TEXT ---------------------- */
+/* Body */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+letter-spacing: 0.02em;
+/* SLATE */
+color: #434455;
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+/* FILTER BUTTON ----------------- */
+/* Button Text */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.04em;
+/* IRIS */
+color: #4D5AE5;
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+/* CLOUD */
+background: #F4F4FD;
+/* CORNFLOWER */
+border: 1px solid #E7E9FC;
+border-radius: 4px;
+
+/* FILTER BUTTON HOVER/FOCUS ------ */
+color: #FFFFFF;
+/* OCEAN */
+background: #404BBF;
+box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
+0px 2px 1px rgba(0, 0, 0, 0.08),
+0px 2px 2px rgba(0, 0, 0, 0.12);
+border-radius: 4px;
+
+
+/* FOOTER LOGO STUDIO ------------- */
+/* CLOUD */
+color: #F4F4FD;
+
+/* FOOTER TEXT -------------------- */
+/* Body */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+letter-spacing: 0.02em;
+/* CORNFLOWER */
+color: #E7E9FC;
